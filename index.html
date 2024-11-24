@@ -210,7 +210,78 @@
 		</ol>
 		<td><h3>Hobby</h3><dd><h4>An activity done regularly in one's leisure time for pleasure.</h4></dd></td>
         <hr>
+
+        
+<!-- using form tag-->
+ <div style="text-align: center;">
+<form action="#" method="post">
+    <h1 style="text-align: center;"> Form</h1>
+    <hr><br>
+    <lebel for="user">Name :</lebel>
+    <input type="text" id="user" name="user" placeholder="user name" ><br><br>
+     
+    <label for="email">E-mail:</label>
+    <input type="email" id="email" name="usermail" placeholder="user mail" required><br><br>
     
+    <label for="pass">Password:</label>
+    <input type="password" id="pass" name="password" placeholder="password"><br><br>
+    
+    <label for="phn">Phone :</label>
+    <select name="code">
+        <option value="+088">+088 </option>
+        <option value="+099">+099 </option>
+        <option value="+098">+098 </option>
+        <option value="+078">+078 </option>
+        <option value="+077">+077 </option>
+    </select>
+    <input type="number" id="phn" name="Phone" placeholder="123456789" required>
+    <br><br>
+    <label for="country">Country:</label>
+    <input list="con">
+    <datalist id="con">
+        <option value="Bangladesh"></option>
+        <option value="India"></option>
+         <option value="Pakistan"></option>
+         <option value="Nepal"></option>
+    
+    
+    
+    </datalist>
+    <br><br>
+    Gender :
+    <input type="radio" id="g1" name="gender">
+    <label for="g1">Male</label>
+    
+    <input type="radio" id="g2" name="gender">
+    <label for="g2">Female</label>
+    <input type="radio" id="g3" name="gender">
+    <label for="g3">Other</label><br><br>
+    
+    <label for="date">Date of Birth</label>
+    <input type="date" id="date" name="dob"><br><br>
+    <label for="time">Time :</label>
+    <input type="time" id="time" name="tm"><br><br>
+    
+    <label for="colors">Colors :</label>
+    <input type="color" id="colors" name="col"><br><br>
+    
+    <label for="file">Choose File :</label>
+    <input type="file" id="file" name="fl"><br><br>
+    
+    <input type="checkbox" id="ch1" name="ch1">
+    <label for="ch1">I have bike</label>
+    
+    <input type="checkbox" id="ch2" name="ch2">
+    <label for="ch2">I have bycicle</label><br><br>
+    
+    <textarea name="comment" cols="50" rows="5"> Comment here</textarea><br><br>
+    
+    <input type="submit" value="send">
+    <input type="reset" value="reset">
+    
+     </form>
+    <hr>
+</div>
 
 </body>
 </html>
